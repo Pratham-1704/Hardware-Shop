@@ -1,0 +1,62 @@
+# Visual Studio / .NET
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+out/
+PublishProfiles/
+
+# NuGet
+packages/
+*.nupkg
+
+# Test and coverage
+TestResults/
+*.coverage
+.coverage.*
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Windows / OS
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# DB and temp files
+*.mdf
+*.ldf
+*.sdf
+*.db
+*.sqlite
+*.bak
+
+# Logs and caches
+*.log
+*.cache
+*.tmp
+
+# Deployment artifacts
+publish/
+artifacts/
+
+# Ignore common developer-specific files
+*_i.c
+*_p.c
+*.log
+*.vssettings
+
+# Ignore compiled outputs (safeguarded by bin/ and obj/)
+*.exe
+*.dll
+*.pdb
+.HardwareShop.sln
